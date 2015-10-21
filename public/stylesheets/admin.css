@@ -1,0 +1,21 @@
+body {
+	height: 900px;
+    background-image: url("bg.jpg");
+    background-size: 100% 100%;
+	text-align: center;
+}
+
+#comment
+{
+	background-color: white;
+	border-radius: 13px;
+}
+
+#input
+
+#menu2{
+	position: fixed;
+	right: 10px;
+	top: 5px;
+	text-decoration: none;
+}

@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  //- passed into layout.jade when form.jade is rendered
+  block content
+    h1= title
+        #menu2
+      a(href='/') LogOUT
+    form(method="post" action="/admin")
+      label(for="title") TITLE:
+      br
+      input(type="text", name="title", value=title)
+      br
+      label(for="description") DESCRIPTION:
+      br
+      textarea(type="text", cols="40", rows="8", name="description", value=description)
+      br
+      label(for="category") Category:
+      br
+      input(type="text", name="category", value=category)
+      br
+      input(type="submit", value="INSERT")
+      - for comment in posts
+          #comment
+            p= comment.title +' ' + comment.description +' - ' +comment.category
+   

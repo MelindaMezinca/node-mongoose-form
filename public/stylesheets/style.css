@@ -1,0 +1,129 @@
+body {
+	height: 900px;
+    background-image: url("a.jpg");
+    background-size: 100% 100%;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+
+#header
+{
+	background: #D3D3D3;
+	height: 80px;
+    border-radius: 10px;
+}
+
+#header-title
+{
+	padding: 7px 120px;
+	font-style: "Times New Roman", Times, serif;
+	font-size: 23px;
+}
+#header-description
+{
+	padding: 0px 150px;
+	font-style: italic;
+	font-size: 19px;
+}
+#menu
+{
+	padding: 10px 550px;
+	background-color: #F36C8C;
+	border-radius: 10px;
+
+}
+
+#developer { 
+   
+	position: relative;
+    background: #ee3e64;
+	text-align: center;
+    line-height: 170px;
+	margin-top: 70px;
+	margin-left: 220px;
+	width: 200px;
+	height: 200px;
+	border-radius: 13px;
+	
+}
+
+
+#design { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+    line-height: 170px;
+	background: #44accf;
+	margin-left: 520px;
+	margin-top: -200px;
+	border-radius: 13px;
+	
+}
+
+#web { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+    line-height: 170px;
+	background: #b7d84b;
+	margin-top: -200px;
+	margin-left: 820px;
+	border-radius: 13px;
+	
+}
+
+
+#photography {
+
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+    line-height: 170px;	
+	background: #408080;
+	margin-left: 220px;
+	margin-top: 50px;
+	border-radius: 13px;
+    
+}
+
+#education {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+    line-height: 170px;
+	background: #ffff80;
+	margin-left: 520px;
+	margin-top: -200px;
+	border-radius: 13px;
+	
+}
+
+
+#business { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+    line-height: 170px;
+	background: #800040;
+	margin-top: -200px;
+	margin-left: 820px;
+	border-radius: 13px;
+	
+}
+
+a {
+	color: black;
+}
+
+
+
+
